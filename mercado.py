@@ -16,7 +16,7 @@ def main() -> None:
 def menu() -> None:
     print('==========================================')
     print('============== Bem-vindo(a) ==============')
-    print('============== Ipohne Store ==============')
+    print('============== Iphone Store ==============')
 
     print('Selcione uma opção abaixo: ')
     print('1 - Cadastrar Produto')
@@ -72,7 +72,7 @@ def listar_produtos() -> None:
             print('----------------')
             sleep(1)
     else:
-        print('Ainda não existem produtos cadastrados')
+        print('Ainda não existem produtos cadastrados.')
     sleep(2)
     menu()
 
@@ -154,7 +154,7 @@ def fechar_pedido() -> None:
         carrinho.clear()
         sleep(5)
     else:
-        print('Ainda não existem produtos no carrinho')
+        print('Ainda não existem produtos no carrinho.')
         sleep(2)
         menu()
 
