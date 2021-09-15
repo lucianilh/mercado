@@ -51,8 +51,8 @@ def cadastrar_produto() -> None:
     print('Cadastro de Produto')
     print('===================')
 
-    nome: str = input('Informe o nome do produto: ')
-    preco: float = input('Informe o preço do produto: ')
+    nome: str = str(input('Informe o nome do produto: '))
+    preco: float = float(input('Informe o preço do produto: '))
 
     produto: Produto = Produto(nome, preco)
 
